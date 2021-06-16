@@ -16,10 +16,10 @@ formsets using any of the provided methods: both regular formsets
 (created with the ``inlineformset_factory``) are supported.
 
 1. First, copy ``jquery.formset.js`` to your ``MEDIA_ROOT``; don't
-   forget to include the jQuery library too!
+   forget to include the [jQuery library](https://code.jquery.com/) too!
 
 2. Include a reference to the script in your template; again, remember
-   to reference the jQuery library, before including the script.
+   to reference the [jQuery library](https://code.jquery.com/), before including the script.
 
 3. Render the formset as you would normally -- I usually use a table
    but you can use DIVs, Ps or whatever you desire. Let's use the
